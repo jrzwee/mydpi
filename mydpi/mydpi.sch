@@ -1382,6 +1382,39 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 </deviceset>
 </devicesets>
 </library>
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
@@ -1420,6 +1453,7 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 <part name="D1" library="zaan-Optoelectronics" deviceset="LTST" device="-C171KSKT"/>
 <part name="Q1" library="zaan-Discrete" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="U2" library="zaan-IC-Power" deviceset="AP7381" device="-33Y-13"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1516,12 +1550,12 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 <attribute name="TOLERANCE" x="206.502" y="175.006" size="1.27" layer="96" align="center-left"/>
 <attribute name="DIELECTRIC" x="206.502" y="173.482" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="R3" gate="G$1" x="218.44" y="139.7" smashed="yes">
-<attribute name="NAME" x="214.63" y="142.24" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="214.63" y="137.16" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="214.63" y="135.636" size="1.27" layer="96" align="center-left"/>
-<attribute name="POWER" x="214.63" y="134.112" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="214.63" y="132.588" size="1.27" layer="96" align="center-left"/>
+<instance part="R3" gate="G$1" x="190.5" y="142.24" smashed="yes">
+<attribute name="NAME" x="186.69" y="144.78" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="186.69" y="139.7" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="186.69" y="138.176" size="1.27" layer="96" align="center-left"/>
+<attribute name="POWER" x="186.69" y="136.652" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="186.69" y="135.128" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="R4" gate="G$1" x="220.98" y="127" smashed="yes">
 <attribute name="NAME" x="217.17" y="129.54" size="1.778" layer="95" align="center-left"/>
@@ -1530,9 +1564,9 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 <attribute name="POWER" x="217.17" y="121.412" size="1.27" layer="96" align="center-left"/>
 <attribute name="TOLERANCE" x="217.17" y="119.888" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="D1" gate="G$1" x="259.08" y="129.54" smashed="yes">
-<attribute name="NAME" x="262.89" y="127" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="264.668" y="127" size="1.27" layer="96" rot="R90"/>
+<instance part="D1" gate="G$1" x="208.28" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="205.74" y="138.43" size="1.778" layer="95"/>
+<attribute name="VALUE" x="205.74" y="136.652" size="1.27" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="276.86" y="76.2" smashed="yes">
 <attribute name="NAME" x="279.4" y="78.74" size="1.778" layer="95" align="center-left"/>
@@ -1542,6 +1576,9 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 <instance part="U2" gate="G$1" x="297.18" y="99.06" smashed="yes">
 <attribute name="NAME" x="289.56" y="102.108" size="1.778" layer="95"/>
 <attribute name="VALUE" x="299.72" y="91.694" size="1.27" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="91.44" y="91.44" smashed="yes">
+<attribute name="VALUE" x="88.9" y="88.9" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -1561,12 +1598,58 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 <label x="91.44" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GND@1"/>
+<wire x1="99.06" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="104.14" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@2"/>
+<wire x1="91.44" y1="101.6" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="99.06" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="96.52" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
+<junction x="91.44" y="101.6"/>
+<pinref part="U1" gate="G$1" pin="GND@3"/>
+<wire x1="99.06" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
+<junction x="91.44" y="99.06"/>
+<pinref part="U1" gate="G$1" pin="GND@4"/>
+<wire x1="99.06" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
+<junction x="91.44" y="96.52"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC7(ICP3/CLK0/OC4A)"/>
+<wire x1="175.26" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="195.58" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="210.82" y1="142.24" x2="220.98" y2="142.24" width="0.1524" layer="91"/>
+<label x="220.98" y="142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
 <compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
