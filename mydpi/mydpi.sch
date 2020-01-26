@@ -891,6 +891,36 @@ USB Controller&lt;li&gt;&lt;br&gt;&lt;b&gt;Footprint:&lt;/b&gt; QFN-44 &lt;br&gt
 </device>
 </devices>
 </deviceset>
+<deviceset name="12PF" prefix="C" uservalue="yes">
+<description>12pF capacitor</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-50V-5%" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23616/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DIELECTRIC" value="C0G/NPO"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="CC0603JRNPO9BN120"/>
+<attribute name="PACKAGE" value="1606"/>
+<attribute name="PACKAGE-IN" value="0603"/>
+<attribute name="TOLERANCE" value="5%"/>
+<attribute name="VALUE" value="12p"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="zaan-Resistors">
@@ -2337,6 +2367,89 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="zaan-Electromechanical">
+<packages>
+<package name="WE-XTAL_CFPX-218" urn="urn:adsk.eagle:footprint:13029068/1" locally_modified="yes">
+<description>&lt;b&gt;WE-XTAL Quartz Crystal
+&lt;br&gt;&lt;br&gt;Size : &lt;/b&gt;CFPX-218
+&lt;br&gt;L X W X H = 2.5mm X 2mm X 0.6mm</description>
+<circle x="-2.0099" y="-0.7625" radius="0.2" width="0" layer="21"/>
+<wire x1="-1.5659" y1="0.0151" x2="-1.5659" y2="-0.0151" width="0.12" layer="21"/>
+<wire x1="1.5659" y1="0.0151" x2="1.5659" y2="-0.0151" width="0.12" layer="21"/>
+<wire x1="-0.1651" y1="1.3159" x2="0.1651" y2="1.3159" width="0.12" layer="21"/>
+<wire x1="-0.1651" y1="-1.3159" x2="0.1651" y2="-1.3159" width="0.12" layer="21"/>
+<wire x1="1.3" y1="-1.05" x2="-1.3" y2="-1.05" width="0.12" layer="51"/>
+<wire x1="-1.3" y1="-1.05" x2="-1.3" y2="1.05" width="0.12" layer="51"/>
+<wire x1="-1.3" y1="1.05" x2="1.3" y2="1.05" width="0.12" layer="51"/>
+<wire x1="1.3" y1="1.05" x2="1.3" y2="-1.05" width="0.12" layer="51"/>
+<smd name="1" x="-0.9625" y="-0.7625" dx="1.0868" dy="0.9868" layer="1"/>
+<smd name="2" x="0.9625" y="-0.7625" dx="1.0868" dy="0.9868" layer="1"/>
+<smd name="3" x="0.9625" y="0.7625" dx="1.0868" dy="0.9868" layer="1"/>
+<smd name="4" x="-0.9625" y="0.7625" dx="1.0868" dy="0.9868" layer="1"/>
+<text x="0" y="2" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-2" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WE-XTAL_CFPX-218" urn="urn:adsk.eagle:package:13029088/2" type="model">
+<description>&lt;b&gt;WE-XTAL Quartz Crystal
+&lt;br&gt;&lt;br&gt;Size : &lt;/b&gt;CFPX-218
+&lt;br&gt;L X W X H = 2.5mm X 2mm X 0.6mm</description>
+<packageinstances>
+<packageinstance name="WE-XTAL_CFPX-218"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="Q-SHIELD2">
+<wire x1="2.286" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="-1.524" x2="1.651" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.651" y1="-1.524" x2="1.651" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.651" y1="1.524" x2="0.889" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.286" y1="1.778" x2="2.286" y2="0" width="0.254" layer="94"/>
+<wire x1="2.286" y1="0" x2="2.286" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0.254" y1="1.778" x2="0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.254" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="2.54" x2="4.318" y2="2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="4.318" y1="2.54" x2="4.318" y2="1.905" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="4.318" y1="-1.905" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="4.318" y2="-2.54" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.1524" layer="94" style="shortdash"/>
+<text x="-2.54" y="6.096" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="-2.54" y="3.81" size="1.27" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="830069" prefix="Y">
+<gates>
+<gate name="G$1" symbol="Q-SHIELD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="392" package="WE-XTAL_CFPX-218">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:13029088/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
@@ -2408,6 +2521,13 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R9" library="zaan-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:970938/2" value="1k"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C8" library="zaan-Capacitors" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:23616/2" value="12p"/>
+<part name="C14" library="zaan-Capacitors" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:23616/2" value="12p"/>
+<part name="Y1" library="zaan-Electromechanical" deviceset="830069" device="392" package3d_urn="urn:adsk.eagle:package:13029088/2"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2682,6 +2802,36 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND17" gate="1" x="35.56" y="205.74" smashed="yes">
 <attribute name="VALUE" x="33.02" y="203.2" size="1.778" layer="96"/>
 </instance>
+<instance part="C8" gate="G$1" x="78.74" y="228.6" smashed="yes">
+<attribute name="NAME" x="77.47" y="230.124" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="82.042" y="230.378" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="82.042" y="228.854" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="82.042" y="227.33" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="82.042" y="225.806" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="82.042" y="224.282" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="C14" gate="G$1" x="55.88" y="228.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="57.15" y="230.124" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="52.578" y="230.378" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="PACKAGE-IN" x="52.578" y="228.854" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="VOLTAGE" x="52.578" y="227.33" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="TOLERANCE" x="52.578" y="225.806" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="DIELECTRIC" x="52.578" y="224.282" size="1.27" layer="96" rot="MR0" align="center-left"/>
+</instance>
+<instance part="Y1" gate="G$1" x="66.04" y="233.68" smashed="yes">
+<attribute name="NAME" x="63.5" y="239.776" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="63.5" y="237.49" size="1.27" layer="96" align="center-left"/>
+</instance>
+<instance part="GND16" gate="1" x="66.04" y="218.44" smashed="yes"/>
+<instance part="GND18" gate="1" x="68.58" y="218.44" smashed="yes">
+<attribute name="VALUE" x="64.516" y="215.646" size="1.778" layer="96"/>
+</instance>
+<instance part="GND19" gate="1" x="55.88" y="218.44" smashed="yes">
+<attribute name="VALUE" x="53.34" y="215.9" size="1.778" layer="96"/>
+</instance>
+<instance part="GND20" gate="1" x="78.74" y="218.44" smashed="yes">
+<attribute name="VALUE" x="76.2" y="215.9" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2795,6 +2945,26 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="35.56" y1="213.36" x2="35.56" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="228.6" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Y1" gate="G$1" pin="4"/>
+<wire x1="68.58" y1="228.6" x2="68.58" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="220.98" x2="55.88" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="220.98" x2="78.74" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3055,18 +3225,6 @@ DIN A3, landscape with location and doc. field</description>
 <label x="261.62" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="XTAL1"/>
-<wire x1="99.06" y1="187.96" x2="96.52" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="XTAL2"/>
-<wire x1="99.06" y1="185.42" x2="96.52" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="D_P" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -3104,6 +3262,38 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="220.98" x2="35.56" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="XTAL1" class="0">
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="231.14" x2="55.88" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="233.68" x2="63.5" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="233.68" x2="55.88" y2="236.22" width="0.1524" layer="91"/>
+<junction x="55.88" y="233.68"/>
+<label x="55.88" y="236.22" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="XTAL1"/>
+<wire x1="99.06" y1="187.96" x2="96.52" y2="187.96" width="0.1524" layer="91"/>
+<label x="96.52" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="XTAL2" class="0">
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="231.14" x2="78.74" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="233.68" x2="71.12" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="233.68" x2="78.74" y2="236.22" width="0.1524" layer="91"/>
+<junction x="78.74" y="233.68"/>
+<label x="78.74" y="236.22" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="XTAL2"/>
+<wire x1="99.06" y1="185.42" x2="96.52" y2="185.42" width="0.1524" layer="91"/>
+<label x="96.52" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
