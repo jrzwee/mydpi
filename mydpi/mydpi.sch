@@ -1426,7 +1426,7 @@ chip</description>
 </library>
 <library name="zaan-Optoelectronics" urn="urn:adsk.eagle:library:16759395">
 <packages>
-<package name="CHIPLED_0805" urn="urn:adsk.eagle:footprint:16759409/1" library_version="1">
+<package name="CHIPLED_0805" urn="urn:adsk.eagle:footprint:16759409/2" library_version="3">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
@@ -1435,9 +1435,8 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
 <wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
 <wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<wire x1="-0.76" y1="1.5" x2="-0.76" y2="1.81" width="0.127" layer="21"/>
-<wire x1="-0.76" y1="1.81" x2="-0.5" y2="1.81" width="0.127" layer="21"/>
 <circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
+<circle x="-0.75" y="1.75" radius="0.1" width="0" layer="21"/>
 <text x="-1.5" y="0" size="1.016" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
 <text x="1.5" y="0" size="1.016" layer="27" font="vector" ratio="15" rot="R90" align="center">&gt;VALUE</text>
 <rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
@@ -1455,7 +1454,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:16759426/1" type="model" library_version="1">
+<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:16759426/3" type="model" library_version="3">
 <description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <packageinstances>
@@ -1491,7 +1490,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTST" urn="urn:adsk.eagle:component:16759435/1" prefix="D" library_version="1">
+<deviceset name="LTST" urn="urn:adsk.eagle:component:16759435/3" prefix="D" library_version="3">
 <description>&lt;li&gt;&lt;b&gt;SMD LED&lt;/b&gt;&lt;br&gt;
 &lt;li&gt;&lt;b&gt;Footprint:&lt;/b&gt; 0805
 &lt;br&gt;
@@ -1508,7 +1507,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759426/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759426/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1849,17 +1848,17 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 <rectangle x1="-2.65" y1="3.405" x2="-2.25" y2="3.905" layer="51"/>
 <rectangle x1="-3.425" y1="3.405" x2="-3.025" y2="3.905" layer="51"/>
 </package>
-<package name="AVRISP-1.27" urn="urn:adsk.eagle:footprint:16759051/1" library_version="1" library_locally_modified="yes">
+<package name="AVRISP-1.27" urn="urn:adsk.eagle:footprint:16759051/2" library_version="5">
 <wire x1="-1.5" y1="-2" x2="-1.5" y2="2" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="2" x2="1.5" y2="2" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
-<pad name="3" x="-0.635" y="0" drill="0.4" diameter="0.75"/>
-<pad name="4" x="0.635" y="0" drill="0.4" diameter="0.75"/>
-<pad name="2" x="0.635" y="1.27" drill="0.4" diameter="0.75"/>
-<pad name="1" x="-0.635" y="1.27" drill="0.4" diameter="0.75"/>
-<pad name="5" x="-0.635" y="-1.27" drill="0.4" diameter="0.75"/>
-<pad name="6" x="0.635" y="-1.27" drill="0.4" diameter="0.75"/>
+<pad name="3" x="-0.635" y="0" drill="0.35" diameter="0.7"/>
+<pad name="4" x="0.635" y="0" drill="0.35" diameter="0.7"/>
+<pad name="2" x="0.635" y="1.27" drill="0.35" diameter="0.7"/>
+<pad name="1" x="-0.635" y="1.27" drill="0.35" diameter="0.7"/>
+<pad name="5" x="-0.635" y="-1.27" drill="0.35" diameter="0.7"/>
+<pad name="6" x="0.635" y="-1.27" drill="0.35" diameter="0.7"/>
 <text x="2.5" y="0" size="1.016" layer="25" font="vector" ratio="15" rot="R270" align="center">&gt;NAME</text>
 <circle x="-1.25" y="1.75" radius="0.15" width="0" layer="21"/>
 </package>
@@ -1886,43 +1885,32 @@ WIDE INPUT VOLTAGE RANGE, 150mA ULDO REGULATOR
 <text x="3.5" y="0" size="1.016" layer="25" font="vector" ratio="13" rot="R270" align="center">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="1.016" layer="21" font="vector" ratio="13">1</text>
 </package>
-<package name="490107670612" urn="urn:adsk.eagle:footprint:16759045/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
-<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD Connector&lt;br&gt;&lt;/b&gt;
-New Design 01.07.2019
-&lt;br&gt;Plated through-holes: 
-&lt;br&gt;
-&lt;br&gt;-	Surface: chemical Ni/Au
-&lt;br&gt;-	min. 20µm Cu
-&lt;br&gt;-	final diameter: 1,4mm +0,1/-0,05
-&lt;br&gt;
-&lt;br&gt;
-Non plated through-holes:
-&lt;br&gt;
-&lt;br&gt;-	Tolerances: +/- 0,05
-&lt;br&gt;
-&lt;br&gt;Details see product data sheet.</description>
+<package name="490107670612_DEBUGGING" urn="urn:adsk.eagle:footprint:16760566/1" library_version="4">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
 <hole x="-4.405" y="1.27" drill="2.2"/>
 <hole x="4.405" y="-1.27" drill="2.6"/>
-<pad name="5" x="-1.905" y="1.27" drill="1.5" diameter="1.85"/>
-<pad name="3" x="0.635" y="1.27" drill="1.5" diameter="1.85"/>
-<pad name="1" x="3.175" y="1.27" drill="1.5" diameter="1.85"/>
-<pad name="6" x="-3.175" y="-1.27" drill="1.5" diameter="1.85"/>
-<pad name="4" x="-0.635" y="-1.27" drill="1.5" diameter="1.85"/>
-<pad name="2" x="1.905" y="-1.27" drill="1.5" diameter="1.85"/>
-<text x="4.5" y="2.25" size="0.8128" layer="21" font="vector" ratio="15" align="center">1</text>
-<text x="3" y="-2.25" size="0.6096" layer="51" font="vector" ratio="15" align="center">2</text>
-<text x="0" y="3.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;Name</text>
-<text x="0" y="-3.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;Value</text>
-<text x="-7" y="1" size="0.4064" layer="51" font="vector" ratio="15" rot="R90" align="center">Debugging</text>
-<wire x1="-7.605" y1="2.8" x2="7.605" y2="2.8" width="0.127" layer="21"/>
-<wire x1="7.605" y1="2.8" x2="7.605" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="7.605" y1="-2.8" x2="-7.605" y2="-2.8" width="0.127" layer="21"/>
-<wire x1="-7.605" y1="-2.8" x2="-7.605" y2="2.8" width="0.127" layer="21"/>
-<wire x1="-7.875" y1="3" x2="-7.875" y2="-3" width="0.127" layer="39"/>
-<wire x1="-7.875" y1="-3" x2="7.875" y2="-3" width="0.127" layer="39"/>
-<wire x1="7.875" y1="-3" x2="7.875" y2="3" width="0.127" layer="39"/>
-<wire x1="7.875" y1="3" x2="-7.875" y2="3" width="0.127" layer="39"/>
-<circle x="-7" y="-2.25" radius="0.25" width="0" layer="21"/>
+<pad name="5" x="-1.905" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="3" x="0.635" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="1" x="3.175" y="1.27" drill="1.5" diameter="1.825"/>
+<pad name="6" x="-3.175" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="4" x="-0.635" y="-1.27" drill="1.5" diameter="1.825"/>
+<pad name="2" x="1.905" y="-1.27" drill="1.5" diameter="1.825"/>
+<wire x1="-7.605" y1="2.8" x2="7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="2.8" x2="7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="7.605" y1="-2.8" x2="-7.605" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-7.605" y1="-2.8" x2="-7.605" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-7.705" y1="2.9" x2="7.705" y2="2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="2.9" x2="7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="7.705" y1="-2.9" x2="-7.705" y2="-2.9" width="0.2" layer="21"/>
+<wire x1="-7.705" y1="-2.9" x2="-7.705" y2="2.9" width="0.2" layer="21"/>
+<wire x1="-8" y1="-3.25" x2="-8" y2="3.25" width="0.0762" layer="39"/>
+<wire x1="-8" y1="3.25" x2="8" y2="3.25" width="0.0762" layer="39"/>
+<wire x1="8" y1="3.25" x2="8" y2="-3.25" width="0.0762" layer="39"/>
+<wire x1="8" y1="-3.25" x2="-8" y2="-3.25" width="0.0762" layer="39"/>
+<circle x="4.5" y="2.2" radius="0.25" width="0" layer="21"/>
+<text x="0" y="4" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-4" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<text x="6.75" y="0" size="0.4064" layer="51" font="vector" ratio="15" rot="R90" align="center">Debugging</text>
 </package>
 </packages>
 <packages3d>
@@ -1931,7 +1919,7 @@ Non plated through-holes:
 <packageinstance name="USB-C-16P"/>
 </packageinstances>
 </package3d>
-<package3d name="AVRISP-1.27" urn="urn:adsk.eagle:package:16759052/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="AVRISP-1.27" urn="urn:adsk.eagle:package:16759052/2" type="box" library_version="5">
 <packageinstances>
 <packageinstance name="AVRISP-1.27"/>
 </packageinstances>
@@ -1941,23 +1929,10 @@ Non plated through-holes:
 <packageinstance name="AVRISP-2.54"/>
 </packageinstances>
 </package3d>
-<package3d name="490107670612A" urn="urn:adsk.eagle:package:16759058/1" type="box" library_version="1" library_locally_modified="yes">
-<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD Connector&lt;br&gt;&lt;/b&gt;
-New Design 01.07.2019
-&lt;br&gt;Plated through-holes: 
-&lt;br&gt;
-&lt;br&gt;-	Surface: chemical Ni/Au
-&lt;br&gt;-	min. 20µm Cu
-&lt;br&gt;-	final diameter: 1,4mm +0,1/-0,05
-&lt;br&gt;
-&lt;br&gt;
-Non plated through-holes:
-&lt;br&gt;
-&lt;br&gt;-	Tolerances: +/- 0,05
-&lt;br&gt;
-&lt;br&gt;Details see product data sheet.</description>
+<package3d name="490107670612_DEBUGGING" urn="urn:adsk.eagle:package:16760574/1" type="model" library_version="4">
+<description>&lt;b&gt;WR-WST REDFIT IDC SKEDD&lt;br&gt;&lt;/b&gt;&lt;br&gt;Only use for debugging or programming application.&lt;br&gt;For mechanical stressed application please use the PCB layout for permanent application.</description>
 <packageinstances>
-<packageinstance name="490107670612"/>
+<packageinstance name="490107670612_DEBUGGING"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1980,7 +1955,7 @@ Exposes the minimal pins needed to implement a USB 2.x legacy device.</descripti
 <pin name="CC2" x="12.7" y="-2.54" length="short" direction="pas" rot="R180"/>
 <pin name="SHLD" x="12.7" y="-5.08" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="AVR-UPDI" urn="urn:adsk.eagle:symbol:16759022/1" library_version="1" library_locally_modified="yes">
+<symbol name="AVR-UPDI-6" urn="urn:adsk.eagle:symbol:16759022/2" library_version="4">
 <wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
@@ -2040,9 +2015,9 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR-UPDI" urn="urn:adsk.eagle:component:16759075/1" prefix="DBG" library_version="1" library_locally_modified="yes">
+<deviceset name="AVR-UPDI-6" urn="urn:adsk.eagle:component:16759075/3" prefix="DBG" library_version="5">
 <gates>
-<gate name="G$1" symbol="AVR-UPDI" x="0" y="0"/>
+<gate name="G$1" symbol="AVR-UPDI-6" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-1.27MM" package="AVRISP-1.27">
@@ -2055,13 +2030,13 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="VTG" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759052/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759052/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SKEDD" package="490107670612">
+<device name="-SKEDD" package="490107670612_DEBUGGING">
 <connects>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="NSRST" pad="6"/>
@@ -2071,7 +2046,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="VTG" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759058/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16760574/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2079,7 +2054,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR-ISP" urn="urn:adsk.eagle:component:16759076/1" prefix="ICSP" library_version="1" library_locally_modified="yes">
+<deviceset name="AVR-ISP" urn="urn:adsk.eagle:component:16759076/3" prefix="ICSP" library_version="5">
 <gates>
 <gate name="G$1" symbol="AVR-ISP" x="0" y="0"/>
 </gates>
@@ -2110,13 +2085,13 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759052/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759052/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SKEDD" package="490107670612">
+<device name="-SKEDD" package="490107670612_DEBUGGING">
 <connects>
 <connect gate="G$1" pin="GND" pad="6"/>
 <connect gate="G$1" pin="MISO" pad="1"/>
@@ -2126,7 +2101,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759058/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16760574/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2477,6 +2452,86 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="zaan-Fuses" urn="urn:adsk.eagle:library:16759178">
+<packages>
+<package name="7555" urn="urn:adsk.eagle:footprint:16759180/1" library_version="1">
+<description>&lt;b&gt;2920&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.7" y="0" dx="5.6" dy="2.3" layer="1" rot="R90"/>
+<smd name="2" x="3.7" y="0" dx="5.6" dy="2.3" layer="1" rot="R90"/>
+<text x="0" y="3.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-3.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
+<wire x1="-3.75" y1="2.5" x2="3.75" y2="2.5" width="0.15" layer="51"/>
+<wire x1="3.75" y1="-2.5" x2="-3.75" y2="-2.5" width="0.15" layer="51"/>
+<wire x1="-2.25" y1="2.5" x2="2.25" y2="2.5" width="0.15" layer="21"/>
+<wire x1="2.25" y1="-2.5" x2="-2.25" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="2.5" x2="-3.75" y2="0.75" width="0.15" layer="51"/>
+<wire x1="-3.75" y1="-2.5" x2="-3.75" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="-3.75" y1="0.75" x2="-3.75" y2="-0.75" width="0.15" layer="51" curve="-180"/>
+<wire x1="3.75" y1="-2.5" x2="3.75" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="3.75" y1="2.5" x2="3.75" y2="0.75" width="0.15" layer="51"/>
+<wire x1="3.75" y1="-0.75" x2="3.75" y2="0.75" width="0.15" layer="51" curve="-180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="7555" urn="urn:adsk.eagle:package:16759182/1" type="box" library_version="1">
+<description>&lt;b&gt;2920&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="7555"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="FUSE" urn="urn:adsk.eagle:symbol:16759181/1" library_version="1">
+<wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0.762" x2="-3.81" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.397" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0ZCF" urn="urn:adsk.eagle:component:16759183/1" prefix="F" library_version="1">
+<description>&lt;li&gt;&lt;b&gt;0ZCF&lt;/b&gt;&lt;hr&gt;
+&lt;b&gt;Resettable PTC Fuse&lt;/b&gt;
+&lt;br&gt;
+PTC (positive temperature coefficient) Fuses
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Footprint Imperial:&lt;/b&gt; 2920
+&lt;li&gt;&lt;b&gt;Footprint Metric:&lt;/b&gt; 7555
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Source:&lt;/b&gt; &lt;a href="https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcf-series.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;br&gt;
+&lt;li&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Bel Fuse</description>
+<gates>
+<gate name="G$1" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0050FF2C" package="7555">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759182/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Surface Mount Fuse"/>
+<attribute name="MF" value="Bel Fuse"/>
+<attribute name="MPN" value="0ZCF0050FF2C"/>
+<attribute name="PACKAGE" value="2920"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
@@ -2490,6 +2545,7 @@ DIN A3, landscape with location and doc. field</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="usb" width="0" drill="0">
+<clearance class="1" value="0.2"/>
 </class>
 </classes>
 <parts>
@@ -2504,11 +2560,11 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C6" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
 <part name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="1n"/>
 <part name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="1k"/>
-<part name="D1" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="LTST" device="-C171KSKT" package3d_urn="urn:adsk.eagle:package:16759426/1"/>
+<part name="D1" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="LTST" device="-C171KSKT" package3d_urn="urn:adsk.eagle:package:16759426/3"/>
 <part name="U2" library="zaan-IC-Power" library_urn="urn:adsk.eagle:library:16759262" deviceset="AP7381" device="-33Y-13" package3d_urn="urn:adsk.eagle:package:16759281/1"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="USB_C" device="2-LAYER" package3d_urn="urn:adsk.eagle:package:16672513/2"/>
-<part name="DBG1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-UPDI" device="-SKEDD" package3d_urn="urn:adsk.eagle:package:16759058/1"/>
+<part name="DBG1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-UPDI-6" device="-SKEDD" package3d_urn="urn:adsk.eagle:package:16760574/1"/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
 <part name="C9" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/1" value="22u"/>
 <part name="C10" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/1" value="22u"/>
@@ -2537,13 +2593,13 @@ DIN A3, landscape with location and doc. field</description>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="100k"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="ICSP1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-ISP" device="-1.27MM" package3d_urn="urn:adsk.eagle:package:16759052/1"/>
+<part name="ICSP1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-ISP" device="-1.27MM" package3d_urn="urn:adsk.eagle:package:16759052/2"/>
 <part name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="100k"/>
 <part name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D2" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="LTST" device="-C171KSKT" package3d_urn="urn:adsk.eagle:package:16759426/1"/>
+<part name="D2" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="LTST" device="-C171KSKT" package3d_urn="urn:adsk.eagle:package:16759426/3"/>
 <part name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="1k"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2556,6 +2612,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="1k"/>
 <part name="S1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1101-C" device="-W" package3d_urn="urn:adsk.eagle:package:16760026/2"/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="F1" library="zaan-Fuses" library_urn="urn:adsk.eagle:library:16759178" deviceset="0ZCF" device="0050FF2C" package3d_urn="urn:adsk.eagle:package:16759182/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2786,26 +2844,26 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="ICSP1" gate="G$1" x="322.58" y="226.06" smashed="yes">
 <attribute name="NAME" x="312.42" y="232.41" size="1.27" layer="95" align="center-left"/>
 </instance>
-<instance part="R8" gate="G$1" x="269.24" y="223.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="268.224" y="227.838" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="272.288" y="225.552" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="272.288" y="224.028" size="1.27" layer="96" align="center-left"/>
-<attribute name="POWER" x="272.288" y="222.504" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="272.288" y="220.98" size="1.27" layer="96" align="center-left"/>
+<instance part="R8" gate="G$1" x="261.62" y="223.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="260.604" y="227.838" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="264.668" y="225.552" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="264.668" y="224.028" size="1.27" layer="96" align="center-left"/>
+<attribute name="POWER" x="264.668" y="222.504" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="264.668" y="220.98" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="C13" gate="G$1" x="269.24" y="210.82" smashed="yes">
-<attribute name="NAME" x="267.97" y="212.344" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="272.542" y="212.598" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="272.542" y="211.074" size="1.27" layer="96" align="center-left"/>
-<attribute name="VOLTAGE" x="272.542" y="209.55" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="272.542" y="208.026" size="1.27" layer="96" align="center-left"/>
-<attribute name="DIELECTRIC" x="272.542" y="206.502" size="1.27" layer="96" align="center-left"/>
+<instance part="C13" gate="G$1" x="261.62" y="210.82" smashed="yes">
+<attribute name="NAME" x="260.35" y="212.344" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="264.922" y="212.598" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="264.922" y="211.074" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="264.922" y="209.55" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="264.922" y="208.026" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="264.922" y="206.502" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="P+7" gate="1" x="269.24" y="236.22" smashed="yes">
-<attribute name="VALUE" x="266.7" y="231.14" size="1.778" layer="96" rot="R90"/>
+<instance part="P+7" gate="1" x="261.62" y="236.22" smashed="yes">
+<attribute name="VALUE" x="259.08" y="231.14" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND14" gate="1" x="269.24" y="198.12" smashed="yes">
-<attribute name="VALUE" x="266.7" y="195.58" size="1.778" layer="96"/>
+<instance part="GND14" gate="1" x="261.62" y="198.12" smashed="yes">
+<attribute name="VALUE" x="259.08" y="195.58" size="1.778" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="88.9" y="144.78" smashed="yes">
 <attribute name="VALUE" x="86.36" y="142.24" size="1.778" layer="96"/>
@@ -2864,9 +2922,16 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="POWER" x="201.93" y="159.512" size="1.27" layer="96" align="center-left"/>
 <attribute name="TOLERANCE" x="201.93" y="157.988" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="S1" gate="G$1" x="86.36" y="238.76" smashed="yes">
-<attribute name="NAME" x="84.455" y="245.11" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="89.535" y="242.57" size="1.27" layer="96" align="center-left"/>
+<instance part="S1" gate="G$1" x="274.32" y="208.28" smashed="yes" rot="MR90">
+<attribute name="NAME" x="280.67" y="206.375" size="1.778" layer="95" rot="MR90" align="center-left"/>
+<attribute name="VALUE" x="278.13" y="211.455" size="1.27" layer="96" rot="MR90" align="center-left"/>
+</instance>
+<instance part="GND21" gate="1" x="274.32" y="198.12" smashed="yes">
+<attribute name="VALUE" x="271.78" y="195.58" size="1.778" layer="96"/>
+</instance>
+<instance part="F1" gate="G$1" x="48.26" y="55.88" smashed="yes">
+<attribute name="NAME" x="44.45" y="57.277" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.45" y="52.959" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2970,7 +3035,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="269.24" y1="200.66" x2="269.24" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="200.66" x2="261.62" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -3001,6 +3066,11 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="208.28" x2="66.04" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="S1" gate="G$1" pin="P"/>
+<wire x1="274.32" y1="200.66" x2="274.32" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3085,7 +3155,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<wire x1="269.24" y1="233.68" x2="269.24" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="233.68" x2="261.62" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VCC@1"/>
@@ -3249,15 +3319,18 @@ DIN A3, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="213.36" x2="269.24" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="215.9" x2="261.62" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="213.36" x2="261.62" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="215.9" x2="254" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="269.24" y1="215.9" x2="269.24" y2="218.44" width="0.1524" layer="91"/>
-<junction x="269.24" y="215.9"/>
-<label x="261.62" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="261.62" y1="215.9" x2="261.62" y2="218.44" width="0.1524" layer="91"/>
+<junction x="261.62" y="215.9"/>
+<label x="254" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="S1" gate="G$1" pin="S"/>
+<wire x1="261.62" y1="215.9" x2="274.32" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="215.9" x2="274.32" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D_P" class="0">
+<net name="D_P" class="1">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="D+"/>
@@ -3265,7 +3338,7 @@ DIN A3, landscape with location and doc. field</description>
 <label x="86.36" y="172.72" size="1.27" layer="95"/>
 </segment>
 </net>
-<net name="D_N" class="0">
+<net name="D_N" class="1">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="D-"/>
