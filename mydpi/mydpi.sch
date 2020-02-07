@@ -2707,7 +2707,6 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="C3" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
 <part name="C4" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
 <part name="C5" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
-<part name="C6" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
 <part name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="1n"/>
 <part name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="1k"/>
 <part name="D1" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="LTST" device="-C171KSKT" package3d_urn="urn:adsk.eagle:package:16759426/3"/>
@@ -2729,14 +2728,11 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="100k"/>
@@ -2772,8 +2768,12 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <sheets>
 <sheet>
 <plain>
-<text x="185.42" y="53.34" size="2.1844" layer="97" align="center-left">Target:
+<text x="294.64" y="116.84" size="2.1844" layer="97" align="center-left">Target:
 5V / 3.3V / External</text>
+<wire x1="281.94" y1="96.52" x2="281.94" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="281.94" y1="76.2" x2="279.4" y2="78.74" width="0.1524" layer="97"/>
+<wire x1="284.48" y1="78.74" x2="281.94" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="281.94" y1="96.52" x2="294.64" y2="96.52" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="137.16" y="182.88" smashed="yes">
@@ -2834,21 +2834,13 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <attribute name="TOLERANCE" x="97.282" y="103.886" size="1.27" layer="96" align="center-left"/>
 <attribute name="DIELECTRIC" x="97.282" y="102.362" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="C6" gate="G$1" x="137.16" y="106.68" smashed="yes">
-<attribute name="NAME" x="135.89" y="108.204" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="140.462" y="108.458" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="140.462" y="106.934" size="1.27" layer="96" align="center-left"/>
-<attribute name="VOLTAGE" x="140.462" y="105.41" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="140.462" y="103.886" size="1.27" layer="96" align="center-left"/>
-<attribute name="DIELECTRIC" x="140.462" y="102.362" size="1.27" layer="96" align="center-left"/>
-</instance>
-<instance part="C7" gate="G$1" x="152.4" y="106.68" smashed="yes">
-<attribute name="NAME" x="151.13" y="108.204" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="155.702" y="108.458" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="155.702" y="106.934" size="1.27" layer="96" align="center-left"/>
-<attribute name="VOLTAGE" x="155.702" y="105.41" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="155.702" y="103.886" size="1.27" layer="96" align="center-left"/>
-<attribute name="DIELECTRIC" x="155.702" y="102.362" size="1.27" layer="96" align="center-left"/>
+<instance part="C7" gate="G$1" x="325.12" y="66.04" smashed="yes">
+<attribute name="NAME" x="323.85" y="67.564" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="328.422" y="67.818" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="328.422" y="66.294" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="328.422" y="64.77" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="328.422" y="63.246" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="328.422" y="61.722" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="R3" gate="G$1" x="190.5" y="195.58" smashed="yes">
 <attribute name="NAME" x="186.69" y="198.12" size="1.778" layer="95" align="center-left"/>
@@ -2871,9 +2863,9 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <instance part="DBG1" gate="G$1" x="251.46" y="165.1" smashed="yes">
 <attribute name="NAME" x="241.3" y="171.45" size="1.27" layer="95" align="center-left"/>
 </instance>
-<instance part="SJ1" gate="G$1" x="198.12" y="33.02" smashed="yes" rot="R180">
-<attribute name="NAME" x="195.58" y="32.639" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="195.58" y="34.925" size="1.778" layer="96" rot="R180"/>
+<instance part="SJ1" gate="G$1" x="307.34" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="304.8" y="96.139" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="304.8" y="98.425" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C9" gate="G$1" x="55.88" y="187.96" smashed="yes">
 <attribute name="NAME" x="54.61" y="189.484" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -2883,38 +2875,38 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <attribute name="TOLERANCE" x="59.182" y="185.166" size="1.27" layer="96" align="center-left"/>
 <attribute name="DIELECTRIC" x="59.182" y="183.642" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="C10" gate="G$1" x="307.34" y="66.04" smashed="yes">
-<attribute name="NAME" x="306.07" y="67.564" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="310.642" y="67.818" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="310.642" y="66.294" size="1.27" layer="96" align="center-left"/>
-<attribute name="VOLTAGE" x="310.642" y="64.77" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="310.642" y="63.246" size="1.27" layer="96" align="center-left"/>
-<attribute name="DIELECTRIC" x="310.642" y="61.722" size="1.27" layer="96" align="center-left"/>
+<instance part="C10" gate="G$1" x="312.42" y="66.04" smashed="yes">
+<attribute name="NAME" x="311.15" y="67.564" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="315.722" y="67.818" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="315.722" y="66.294" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="315.722" y="64.77" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="315.722" y="63.246" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="315.722" y="61.722" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="C11" gate="G$1" x="292.1" y="66.04" smashed="yes">
-<attribute name="NAME" x="290.83" y="67.564" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="295.402" y="67.818" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="295.402" y="66.294" size="1.27" layer="96" align="center-left"/>
-<attribute name="VOLTAGE" x="295.402" y="64.77" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="295.402" y="63.246" size="1.27" layer="96" align="center-left"/>
-<attribute name="DIELECTRIC" x="295.402" y="61.722" size="1.27" layer="96" align="center-left"/>
+<instance part="C11" gate="G$1" x="297.18" y="66.04" smashed="yes">
+<attribute name="NAME" x="295.91" y="67.564" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="300.482" y="67.818" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="300.482" y="66.294" size="1.27" layer="96" align="center-left"/>
+<attribute name="VOLTAGE" x="300.482" y="64.77" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="300.482" y="63.246" size="1.27" layer="96" align="center-left"/>
+<attribute name="DIELECTRIC" x="300.482" y="61.722" size="1.27" layer="96" align="center-left"/>
 </instance>
-<instance part="C12" gate="G$1" x="238.76" y="66.04" smashed="yes" rot="MR0">
-<attribute name="NAME" x="240.03" y="67.564" size="1.778" layer="95" rot="MR180" align="center-left"/>
-<attribute name="VALUE" x="235.458" y="67.818" size="1.27" layer="96" rot="MR0" align="center-left"/>
-<attribute name="PACKAGE-IN" x="235.458" y="66.294" size="1.27" layer="96" rot="MR0" align="center-left"/>
-<attribute name="VOLTAGE" x="235.458" y="64.77" size="1.27" layer="96" rot="MR0" align="center-left"/>
-<attribute name="TOLERANCE" x="235.458" y="63.246" size="1.27" layer="96" rot="MR0" align="center-left"/>
-<attribute name="DIELECTRIC" x="235.458" y="61.722" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<instance part="C12" gate="G$1" x="226.06" y="66.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="227.33" y="67.564" size="1.778" layer="95" rot="MR180" align="center-left"/>
+<attribute name="VALUE" x="222.758" y="67.818" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="PACKAGE-IN" x="222.758" y="66.294" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="VOLTAGE" x="222.758" y="64.77" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="TOLERANCE" x="222.758" y="63.246" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="DIELECTRIC" x="222.758" y="61.722" size="1.27" layer="96" rot="MR0" align="center-left"/>
 </instance>
-<instance part="GND3" gate="1" x="238.76" y="58.42" smashed="yes">
-<attribute name="VALUE" x="236.22" y="55.88" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="226.06" y="58.42" smashed="yes">
+<attribute name="VALUE" x="223.52" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="292.1" y="58.42" smashed="yes">
-<attribute name="VALUE" x="289.56" y="55.88" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="297.18" y="58.42" smashed="yes">
+<attribute name="VALUE" x="294.64" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="307.34" y="58.42" smashed="yes">
-<attribute name="VALUE" x="304.8" y="55.88" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="312.42" y="58.42" smashed="yes">
+<attribute name="VALUE" x="309.88" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="341.63" y="10.16" size="2.286" layer="94"/>
@@ -2948,12 +2940,6 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <instance part="P+5" gate="1" x="78.74" y="116.84" smashed="yes">
 <attribute name="VALUE" x="76.2" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+8" gate="1" x="137.16" y="116.84" smashed="yes">
-<attribute name="VALUE" x="134.62" y="111.76" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+9" gate="1" x="152.4" y="116.84" smashed="yes">
-<attribute name="VALUE" x="149.86" y="111.76" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="P+1" gate="1" x="109.22" y="116.84" smashed="yes">
 <attribute name="VALUE" x="106.68" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -2969,11 +2955,8 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <instance part="GND12" gate="1" x="109.22" y="93.98" smashed="yes">
 <attribute name="VALUE" x="106.68" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="137.16" y="93.98" smashed="yes">
-<attribute name="VALUE" x="134.62" y="91.44" size="1.778" layer="96"/>
-</instance>
-<instance part="GND15" gate="1" x="152.4" y="93.98" smashed="yes">
-<attribute name="VALUE" x="149.86" y="91.44" size="1.778" layer="96"/>
+<instance part="GND15" gate="1" x="325.12" y="58.42" smashed="yes">
+<attribute name="VALUE" x="322.58" y="55.88" size="1.778" layer="96"/>
 </instance>
 <instance part="P+4" gate="1" x="93.98" y="116.84" smashed="yes">
 <attribute name="VALUE" x="91.44" y="111.76" size="1.778" layer="96" rot="R90"/>
@@ -3080,9 +3063,9 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <attribute name="NAME" x="44.323" y="181.61" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="48.641" y="179.07" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="U2" gate="G$1" x="269.24" y="66.04" smashed="yes">
-<attribute name="NAME" x="261.62" y="77.724" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="261.62" y="54.61" size="1.27" layer="96" align="center-left"/>
+<instance part="U2" gate="G$1" x="254" y="66.04" smashed="yes">
+<attribute name="NAME" x="246.38" y="77.724" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="246.38" y="54.61" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="Q1" gate="G$1" x="226.06" y="142.24" smashed="yes" rot="MR270">
 <attribute name="NAME" x="223.52" y="139.7" size="1.778" layer="95" rot="MR270" align="center-left"/>
@@ -3182,13 +3165,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <wire x1="109.22" y1="96.52" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="137.16" y1="96.52" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="101.6" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -3238,8 +3215,8 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="256.54" y1="66.04" x2="254" y2="66.04" width="0.1524" layer="91"/>
-<label x="254" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="241.3" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="238.76" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="2"/>
@@ -3269,17 +3246,17 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </segment>
 <segment>
 <pinref part="SJ1" gate="G$1" pin="3"/>
-<wire x1="198.12" y1="38.1" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
-<label x="198.12" y="40.64" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="307.34" y1="101.6" x2="307.34" y2="104.14" width="0.1524" layer="91"/>
+<label x="307.34" y="104.14" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<label x="231.14" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="218.44" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="68.58" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
-<junction x="238.76" y="71.12"/>
-<wire x1="231.14" y1="71.12" x2="238.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="68.58" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
+<junction x="226.06" y="71.12"/>
+<wire x1="218.44" y1="71.12" x2="226.06" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="238.76" y1="71.12" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="71.12" x2="241.3" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -3295,16 +3272,6 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="109.22" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="109.22" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P+8" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="109.22" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -3393,36 +3360,16 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <label x="213.36" y="166.116" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MEDBG_VTG" class="0">
-<segment>
-<pinref part="DBG1" gate="G$1" pin="VTG"/>
-<wire x1="266.7" y1="165.1" x2="271.78" y2="165.1" width="0.1524" layer="91"/>
-<label x="271.78" y="165.1" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SJ1" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="33.02" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
-<label x="205.74" y="33.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="SJ1" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="27.94" x2="198.12" y2="25.4" width="0.1524" layer="91"/>
-<label x="198.12" y="25.4" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="307.34" y1="91.44" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
+<label x="307.34" y="88.9" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<label x="312.42" y="71.12" size="1.27" layer="95" xref="yes"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="71.12" x2="307.34" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="68.58" x2="307.34" y2="71.12" width="0.1524" layer="91"/>
-<junction x="307.34" y="71.12"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="68.58" x2="292.1" y2="71.12" width="0.1524" layer="91"/>
-<junction x="292.1" y="71.12"/>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="292.1" y1="71.12" x2="281.94" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="71.12" x2="271.78" y2="71.12" width="0.1524" layer="91"/>
+<label x="271.78" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3614,6 +3561,35 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <wire x1="38.1" y1="175.26" x2="45.72" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="175.26" x2="45.72" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VTG" class="0">
+<segment>
+<label x="332.74" y="71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="297.18" y1="71.12" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="71.12" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="71.12" x2="332.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="68.58" x2="312.42" y2="71.12" width="0.1524" layer="91"/>
+<junction x="312.42" y="71.12"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="297.18" y1="68.58" x2="297.18" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="68.58" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
+<junction x="325.12" y="71.12"/>
+<wire x1="297.18" y1="71.12" x2="289.56" y2="71.12" width="0.1524" layer="91"/>
+<junction x="297.18" y="71.12"/>
+<label x="289.56" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="DBG1" gate="G$1" pin="VTG"/>
+<wire x1="266.7" y1="165.1" x2="271.78" y2="165.1" width="0.1524" layer="91"/>
+<label x="271.78" y="165.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
+<label x="314.96" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
