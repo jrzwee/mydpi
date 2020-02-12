@@ -1028,20 +1028,20 @@ chip</description>
 <rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
 <rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
 </package>
-<package name="R0805" urn="urn:adsk.eagle:footprint:16759446/2" library_version="2">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+<package name="R0805" urn="urn:adsk.eagle:footprint:16759446/6" library_version="4">
+<description>&lt;b&gt;FUSE&lt;/b&gt;&lt;p&gt;
 chip</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.03" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.03" layer="39"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 <smd name="1" x="-1" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="1" y="0" dx="1.3" dy="1.5" layer="1"/>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.975" y1="0.975" x2="1.975" y2="0.975" width="0.04" layer="39"/>
+<wire x1="1.975" y1="0.975" x2="1.975" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="1.975" y1="-0.975" x2="-1.975" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="-1.975" y1="-0.975" x2="-1.975" y2="0.975" width="0.04" layer="39"/>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-1.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
@@ -1067,8 +1067,8 @@ chip</description>
 <packageinstance name="R1210"/>
 </packageinstances>
 </package3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:16759454/2" type="model" library_version="2">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+<package3d name="R0805" urn="urn:adsk.eagle:package:16759454/4" type="model" library_version="4">
+<description>&lt;b&gt;FUSE&lt;/b&gt;&lt;p&gt;
 chip</description>
 <packageinstances>
 <packageinstance name="R0805"/>
@@ -1091,7 +1091,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22OHM" urn="urn:adsk.eagle:component:16759497/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="22OHM" urn="urn:adsk.eagle:component:16759497/4" prefix="R" uservalue="yes" library_version="4">
 <description>22Ω resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1125,7 +1125,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1187,7 +1187,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1KOHM" urn="urn:adsk.eagle:component:16759486/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="1KOHM" urn="urn:adsk.eagle:component:16759486/4" prefix="R" uservalue="yes" library_version="4">
 <description>1kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1221,7 +1221,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1283,7 +1283,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="5.1KOHM" urn="urn:adsk.eagle:component:16759498/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="5.1KOHM" urn="urn:adsk.eagle:component:16759498/4" prefix="R" uservalue="yes" library_version="4">
 <description>5.1kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1317,7 +1317,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1379,7 +1379,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="100KOHM" urn="urn:adsk.eagle:component:16759484/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="100KOHM" urn="urn:adsk.eagle:component:16759484/4" prefix="R" uservalue="yes" library_version="4">
 <description>100kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1413,7 +1413,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1882,7 +1882,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <packageinstance name="490107670612_DEBUGGING"/>
 </packageinstances>
 </package3d>
-<package3d name="AVRISP-1.27-SMD" urn="urn:adsk.eagle:package:17075154/1" type="box" library_version="6">
+<package3d name="AVRISP-1.27-SMD" urn="urn:adsk.eagle:package:17075154/2" type="empty" library_version="7" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="AVRISP-1.27-SMD"/>
 </packageinstances>
@@ -2007,7 +2007,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR-ISP" urn="urn:adsk.eagle:component:16759076/4" prefix="ICSP" library_version="6">
+<deviceset name="AVR-ISP" urn="urn:adsk.eagle:component:16759076/4" locally_modified="yes" prefix="ICSP" library_version="7" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="AVR-ISP" x="0" y="0"/>
 </gates>
@@ -2070,7 +2070,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:17075154/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17075154/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2437,7 +2437,7 @@ DIN A3, landscape with location and doc. field</description>
 </library>
 <library name="zaan-Fuses" urn="urn:adsk.eagle:library:16759178">
 <packages>
-<package name="F0805" urn="urn:adsk.eagle:footprint:16759446/4" library_version="4">
+<package name="F0805" urn="urn:adsk.eagle:footprint:17200785/1" library_version="9">
 <description>&lt;b&gt;FUSE&lt;/b&gt;&lt;p&gt;
 chip</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.03" layer="39"/>
@@ -2454,7 +2454,6 @@ chip</description>
 <wire x1="-1.016" y1="0.635" x2="0" y2="0.635" width="0.1016" layer="51"/>
 <wire x1="-1.016" y1="-0.254" x2="-1.016" y2="-0.635" width="0.1016" layer="51"/>
 <wire x1="-1.016" y1="-0.635" x2="0" y2="-0.635" width="0.1016" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 <smd name="1" x="-1" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="1" y="0" dx="1.3" dy="1.5" layer="1"/>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
@@ -2462,7 +2461,7 @@ chip</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="F0805" urn="urn:adsk.eagle:package:17053209/3" type="model" library_version="4">
+<package3d name="F0805" urn="urn:adsk.eagle:package:17200786/2" type="model" library_version="9">
 <description>&lt;b&gt;FUSE&lt;/b&gt;&lt;p&gt;
 chip</description>
 <packageinstances>
@@ -2484,7 +2483,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MF-PSMF" urn="urn:adsk.eagle:component:17074940/3" prefix="F" library_version="7">
+<deviceset name="MF-PSMF" urn="urn:adsk.eagle:component:17074940/5" prefix="F" library_version="9">
 <description>&lt;b&gt;PTC Resetable Fuse&lt;/b&gt; 
 &lt;br&gt;MF-PSMF Series - PTC Resettable Fuses&lt;li&gt;&lt;br&gt; &lt;b&gt;Footprint:&lt;/b&gt; 0805 &lt;br&gt;&lt;li&gt;&lt;b&gt;Source:&lt;/b&gt; &lt;a href="https://www.bourns.com/data/global/pdfs/mfpsmf.pdf"&gt;Datasheet&lt;/a&gt; &lt;br&gt;&lt;li&gt;&lt;b&gt;Manufacturer:&lt;/b&gt; Bourns</description>
 <gates>
@@ -2497,7 +2496,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:17053209/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17200786/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2767,7 +2766,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="100k"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="ICSP1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-ISP" device="-SMD" package3d_urn="urn:adsk.eagle:package:17075154/1" value="AVR-ISP-SMD">
+<part name="ICSP1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-ISP" device="-SMD" package3d_urn="urn:adsk.eagle:package:17075154/2" value="AVR-ISP-SMD">
 <variant name="BOM" populate="no"/>
 </part>
 <part name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="100k"/>
@@ -2789,7 +2788,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="R4" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="1k"/>
 <part name="S1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="TS-1101-C" device="-W" package3d_urn="urn:adsk.eagle:package:16760026/2"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="F1" library="zaan-Fuses" library_urn="urn:adsk.eagle:library:16759178" deviceset="MF-PSMF" device="035X-2" package3d_urn="urn:adsk.eagle:package:17053209/3"/>
+<part name="F1" library="zaan-Fuses" library_urn="urn:adsk.eagle:library:16759178" deviceset="MF-PSMF" device="035X-2" package3d_urn="urn:adsk.eagle:package:17200786/2"/>
 <part name="U2" library="zaan-IC-Power" library_urn="urn:adsk.eagle:library:16759262" deviceset="RT9193" device="-33GB" package3d_urn="urn:adsk.eagle:package:17050627/1"/>
 <part name="Q1" library="zaan-Discrete" library_urn="urn:adsk.eagle:library:16759095" deviceset="DMN3404L" device="" package3d_urn="urn:adsk.eagle:package:16759132/1"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
