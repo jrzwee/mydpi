@@ -3568,25 +3568,16 @@ Wurth Electronics SKEDD</text>
 <wire x1="180.34" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="256.54" y1="152.4" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
-<label x="256.54" y="154.94" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$10" class="0">
+<net name="UDPI_RAW" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="248.92" y1="147.32" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
 <label x="246.38" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="N$11" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="259.08" y1="147.32" x2="261.62" y2="147.32" width="0.1524" layer="91"/>
-<label x="261.62" y="147.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
+<label x="220.98" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3625,6 +3616,11 @@ Wurth Electronics SKEDD</text>
 <wire x1="307.34" y1="104.14" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
 <label x="309.88" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="G"/>
+<wire x1="256.54" y1="152.4" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
+<label x="256.54" y="154.94" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="UDPI" class="0">
 <segment>
@@ -3632,11 +3628,10 @@ Wurth Electronics SKEDD</text>
 <wire x1="297.18" y1="147.32" x2="289.56" y2="147.32" width="0.1524" layer="91"/>
 <label x="289.56" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="N$3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="S"/>
+<wire x1="259.08" y1="147.32" x2="261.62" y2="147.32" width="0.1524" layer="91"/>
+<label x="261.62" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
