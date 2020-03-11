@@ -1028,20 +1028,20 @@ chip</description>
 <rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
 <rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
 </package>
-<package name="R0805" urn="urn:adsk.eagle:footprint:16759446/6" library_version="4">
-<description>&lt;b&gt;FUSE&lt;/b&gt;&lt;p&gt;
+<package name="R0805" urn="urn:adsk.eagle:footprint:16759446/2" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<smd name="1" x="-1" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="1" y="0" dx="1.3" dy="1.5" layer="1"/>
 <wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
 <wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.975" y1="0.975" x2="1.975" y2="0.975" width="0.04" layer="39"/>
-<wire x1="1.975" y1="0.975" x2="1.975" y2="-0.975" width="0.04" layer="39"/>
-<wire x1="1.975" y1="-0.975" x2="-1.975" y2="-0.975" width="0.04" layer="39"/>
-<wire x1="-1.975" y1="-0.975" x2="-1.975" y2="0.975" width="0.04" layer="39"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.03" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.03" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.03" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.03" layer="39"/>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<smd name="1" x="-1" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="1" y="0" dx="1.3" dy="1.5" layer="1"/>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-1.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
@@ -1067,8 +1067,8 @@ chip</description>
 <packageinstance name="R1210"/>
 </packageinstances>
 </package3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:16759454/4" type="model" library_version="4">
-<description>&lt;b&gt;FUSE&lt;/b&gt;&lt;p&gt;
+<package3d name="R0805" urn="urn:adsk.eagle:package:16759454/2" type="model" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <packageinstances>
 <packageinstance name="R0805"/>
@@ -1091,7 +1091,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22OHM" urn="urn:adsk.eagle:component:16759497/4" prefix="R" uservalue="yes" library_version="4">
+<deviceset name="22OHM" urn="urn:adsk.eagle:component:16759497/2" prefix="R" uservalue="yes" library_version="2">
 <description>22Ω resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1125,7 +1125,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1187,7 +1187,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1KOHM" urn="urn:adsk.eagle:component:16759486/4" prefix="R" uservalue="yes" library_version="4">
+<deviceset name="1KOHM" urn="urn:adsk.eagle:component:16759486/2" prefix="R" uservalue="yes" library_version="2">
 <description>1kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1221,7 +1221,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1283,7 +1283,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="5.1KOHM" urn="urn:adsk.eagle:component:16759498/4" prefix="R" uservalue="yes" library_version="4">
+<deviceset name="5.1KOHM" urn="urn:adsk.eagle:component:16759498/2" prefix="R" uservalue="yes" library_version="2">
 <description>5.1kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1317,7 +1317,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1379,7 +1379,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="100KOHM" urn="urn:adsk.eagle:component:16759484/4" prefix="R" uservalue="yes" library_version="4">
+<deviceset name="100KOHM" urn="urn:adsk.eagle:component:16759484/2" prefix="R" uservalue="yes" library_version="2">
 <description>100kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1413,7 +1413,7 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1469,6 +1469,102 @@ chip</description>
 <attribute name="POWER" value="0.5W"/>
 <attribute name="TOLERANCE" value="1%"/>
 <attribute name="VALUE" value="100k"/>
+<attribute name="VOLTAGE" value="200V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4.7KOHM" urn="urn:adsk.eagle:component:16759473/2" prefix="R" uservalue="yes" library_version="2">
+<description>4.7kΩ resistor</description>
+<gates>
+<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759452/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-074K7L"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="PACKAGE-IN" value="0603"/>
+<attribute name="POWER" value="0.1W"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.7k"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805-1/8W-1%" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC0805FR-074K7L"/>
+<attribute name="PACKAGE" value="2012"/>
+<attribute name="PACKAGE-IN" value="0805"/>
+<attribute name="POWER" value="0.125W"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.7k"/>
+<attribute name="VOLTAGE" value="150V"/>
+</technology>
+</technologies>
+</device>
+<device name="-1206-1/4W-1%" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759453/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC1206FR-074K7L"/>
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="PACKAGE-IN" value="1206"/>
+<attribute name="POWER" value="0.25W"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.7k"/>
+<attribute name="VOLTAGE" value="200V"/>
+</technology>
+</technologies>
+</device>
+<device name="-1210-1/2W-1%" package="R1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759448/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="MF" value="Yageo"/>
+<attribute name="MPN" value="RC1210FR-074K7L"/>
+<attribute name="PACKAGE" value="3225"/>
+<attribute name="PACKAGE-IN" value="1210"/>
+<attribute name="POWER" value="0.5W"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.7k"/>
 <attribute name="VOLTAGE" value="200V"/>
 </technology>
 </technologies>
@@ -2710,7 +2806,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <attributes>
 <attribute name="CHECKED_BY" value="-"/>
 <attribute name="DRAWN_BY" value="zaan"/>
-<attribute name="REV" value="1.0"/>
+<attribute name="REV" value="1.1"/>
 <attribute name="TITLE" value="myDPI"/>
 </attributes>
 <variantdefs>
@@ -2795,6 +2891,9 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R10" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="4.7k"/>
+<part name="R11" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="4.7k"/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2810,7 +2909,7 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <text x="251.46" y="226.06" size="3.81" layer="97">Reset Circuit</text>
 <text x="292.1" y="160.02" size="2.54" layer="97">UDPI Programming Connector
 Wurth Electronics SKEDD</text>
-<text x="233.68" y="165.1" size="2.54" layer="97">Target Voltage Level Shifter</text>
+<text x="233.68" y="170.18" size="2.54" layer="97">Target Voltage Level Shifter</text>
 <text x="124.46" y="215.9" size="3.81" layer="97">ATmega32u4</text>
 <text x="73.66" y="104.14" size="2.54" layer="97">Crystal Circuit</text>
 <text x="30.48" y="104.14" size="2.54" layer="97">Supply LED</text>
@@ -3087,12 +3186,12 @@ Wurth Electronics SKEDD</text>
 <instance part="GND20" gate="1" x="96.52" y="68.58" smashed="yes">
 <attribute name="VALUE" x="93.98" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="210.82" y="147.32" smashed="yes">
-<attribute name="NAME" x="207.01" y="149.86" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="207.01" y="144.78" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE-IN" x="207.01" y="143.256" size="1.27" layer="96" align="center-left"/>
-<attribute name="POWER" x="207.01" y="141.732" size="1.27" layer="96" align="center-left"/>
-<attribute name="TOLERANCE" x="207.01" y="140.208" size="1.27" layer="96" align="center-left"/>
+<instance part="R4" gate="G$1" x="205.74" y="147.32" smashed="yes">
+<attribute name="NAME" x="201.93" y="149.86" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="201.93" y="144.78" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE-IN" x="201.93" y="143.256" size="1.27" layer="96" align="center-left"/>
+<attribute name="POWER" x="201.93" y="141.732" size="1.27" layer="96" align="center-left"/>
+<attribute name="TOLERANCE" x="201.93" y="140.208" size="1.27" layer="96" align="center-left"/>
 </instance>
 <instance part="S1" gate="G$1" x="279.4" y="190.5" smashed="yes" rot="MR90">
 <attribute name="NAME" x="285.75" y="188.595" size="1.778" layer="95" rot="MR90" align="center-left"/>
@@ -3125,6 +3224,23 @@ Wurth Electronics SKEDD</text>
 </instance>
 <instance part="GND22" gate="1" x="60.96" y="160.02" smashed="yes">
 <attribute name="VALUE" x="58.42" y="157.48" size="1.778" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="246.38" y="154.94" smashed="yes" rot="MR90">
+<attribute name="NAME" x="248.92" y="151.13" size="1.778" layer="95" rot="MR90" align="center-left"/>
+<attribute name="VALUE" x="243.84" y="151.13" size="1.27" layer="96" rot="MR90" align="center-left"/>
+<attribute name="PACKAGE-IN" x="242.316" y="151.13" size="1.27" layer="96" rot="MR90" align="center-left"/>
+<attribute name="POWER" x="240.792" y="151.13" size="1.27" layer="96" rot="MR90" align="center-left"/>
+<attribute name="TOLERANCE" x="239.268" y="151.13" size="1.27" layer="96" rot="MR90" align="center-left"/>
+</instance>
+<instance part="R11" gate="G$1" x="264.16" y="154.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="261.62" y="151.13" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="266.7" y="151.13" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="PACKAGE-IN" x="268.224" y="151.13" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="POWER" x="269.748" y="151.13" size="1.27" layer="96" rot="R90" align="center-left"/>
+<attribute name="TOLERANCE" x="271.272" y="151.13" size="1.27" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="P+8" gate="1" x="246.38" y="165.1" smashed="yes">
+<attribute name="VALUE" x="243.84" y="160.02" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -3385,6 +3501,11 @@ Wurth Electronics SKEDD</text>
 <pinref part="P+11" gate="1" pin="+5V"/>
 <wire x1="60.96" y1="175.26" x2="60.96" y2="172.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<wire x1="246.38" y1="162.56" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="USB_P" class="1">
 <segment>
@@ -3565,19 +3686,23 @@ Wurth Electronics SKEDD</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="PE6(INT6/AIN6)"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="180.34" y1="147.32" x2="205.74" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="147.32" x2="200.66" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UDPI_RAW" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="248.92" y1="147.32" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
-<label x="246.38" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="238.76" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="147.32" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="149.86" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
+<junction x="246.38" y="147.32"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
-<label x="220.98" y="147.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="210.82" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
+<label x="213.36" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3621,6 +3746,11 @@ Wurth Electronics SKEDD</text>
 <wire x1="256.54" y1="152.4" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
 <label x="256.54" y="154.94" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="264.16" y1="160.02" x2="264.16" y2="162.56" width="0.1524" layer="91"/>
+<label x="264.16" y="162.56" size="1.27" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="UDPI" class="0">
 <segment>
@@ -3630,8 +3760,12 @@ Wurth Electronics SKEDD</text>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="259.08" y1="147.32" x2="261.62" y2="147.32" width="0.1524" layer="91"/>
-<label x="261.62" y="147.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="259.08" y1="147.32" x2="264.16" y2="147.32" width="0.1524" layer="91"/>
+<label x="269.24" y="147.32" size="1.27" layer="95" xref="yes"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="264.16" y1="147.32" x2="269.24" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="149.86" x2="264.16" y2="147.32" width="0.1524" layer="91"/>
+<junction x="264.16" y="147.32"/>
 </segment>
 </net>
 </nets>
