@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -162,7 +162,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXllZHUyNzUw" projecturn="a.YnVzaW5lc3M6bXllZHUyNzUwI0QyMDIwMDEyNDI1ODYxMzcwNg" f3durn="urn:adsk.wipprod:dm.lineage:2NjS6xJrTEy7JGCJS98lKg" pcbguid="408126e5-ce63-4758-9e65-038a09f0ee83" lastpulledtime="" lastsyncedchangeguid="ac4a4bb4-bec2-feb1-9dbc-fddfe93a19ae" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="%12"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXllZHUyNzUw" projecturn="a.YnVzaW5lc3M6bXllZHUyNzUwI0QyMDIwMDEyNDI1ODYxMzcwNg" f3durn="urn:adsk.wipprod:dm.lineage:2NjS6xJrTEy7JGCJS98lKg" pcbguid="408126e5-ce63-4758-9e65-038a09f0ee83" lastpulledtime="" lastsyncedchangeguid="ac4a4bb4-bec2-feb1-9dbc-fddfe93a19ae" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="18" x2="0" y2="2" width="0" layer="20"/>
 <wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
@@ -1608,10 +1608,10 @@ Your Multi-CB Team
 <contactref element="C12" pad="1"/>
 <wire x1="11.5" y1="18.024" x2="12" y2="18.524" width="0.254" layer="16"/>
 <wire x1="12" y1="18.524" x2="12" y2="19" width="0.254" layer="16"/>
-<via x="12" y="19" extent="1-16" drill="0.35"/>
+<via x="12" y="19" extent="1-16" drill="0.3"/>
 <wire x1="11.5" y1="18.024" x2="11" y2="18.524" width="0.254" layer="16"/>
 <wire x1="11" y1="18.524" x2="11" y2="19" width="0.254" layer="16"/>
-<via x="11" y="19" extent="1-16" drill="0.35"/>
+<via x="11" y="19" extent="1-16" drill="0.3"/>
 <wire x1="25.9" y1="8" x2="26.5" y2="8.6" width="0.254" layer="1"/>
 <wire x1="25.9" y1="8" x2="23.975" y2="8" width="0.254" layer="1"/>
 <wire x1="23" y1="13.475" x2="23" y2="15.4" width="0.254" layer="1"/>
@@ -1662,7 +1662,7 @@ Your Multi-CB Team
 <wire x1="12.75" y1="15.5" x2="12.75" y2="15.226" width="0.254" layer="16"/>
 <wire x1="12.75" y1="15.226" x2="12.5" y2="14.976" width="0.254" layer="16"/>
 <wire x1="11.5" y1="14.976" x2="12.5" y2="14.976" width="0.254" layer="16"/>
-<via x="12.75" y="15.5" extent="1-16" drill="0.35"/>
+<via x="12.75" y="15.5" extent="1-16" drill="0.3"/>
 <wire x1="12.75" y1="15.5" x2="12.75" y2="16.4" width="0.254" layer="1"/>
 <wire x1="12.75" y1="16.4" x2="12.8" y2="16.45" width="0.254" layer="1"/>
 </signal>
@@ -1827,7 +1827,7 @@ Your Multi-CB Team
 <wire x1="16" y1="13" x2="16" y2="14" width="0.254" layer="16"/>
 <wire x1="18" y1="16" x2="23.25" y2="16" width="0.254" layer="16"/>
 <wire x1="23.25" y1="16" x2="25.75" y2="18.5" width="0.254" layer="16"/>
-<via x="25.75" y="18.5" extent="1-16" drill="0.35"/>
+<via x="25.75" y="18.5" extent="1-16" drill="0.3"/>
 <wire x1="31.1" y1="18.5" x2="25.75" y2="18.5" width="0.254" layer="1"/>
 <wire x1="31.1" y1="18.5" x2="32.5" y2="17.1" width="0.254" layer="1"/>
 <wire x1="16" y1="14" x2="18" y2="16" width="0.254" layer="16"/>
@@ -1839,11 +1839,11 @@ Your Multi-CB Team
 <wire x1="28.65" y1="12.25" x2="27.15" y2="12.25" width="0.254" layer="1"/>
 <wire x1="27.15" y1="12.25" x2="26.5" y2="11.6" width="0.254" layer="1"/>
 <wire x1="28.65" y1="12.25" x2="28.65" y2="13.25" width="0.254" layer="1"/>
-<via x="28.65" y="13.25" extent="1-16" drill="0.35"/>
+<via x="28.65" y="13.25" extent="1-16" drill="0.3"/>
 <wire x1="28.65" y1="13.25" x2="28.9" y2="13.5" width="0.254" layer="16"/>
 <wire x1="32.25" y1="13.5" x2="32.5" y2="13.75" width="0.254" layer="16"/>
 <wire x1="32.5" y1="13.75" x2="32.5" y2="14.5" width="0.254" layer="16"/>
-<via x="32.5" y="14.5" extent="1-16" drill="0.35"/>
+<via x="32.5" y="14.5" extent="1-16" drill="0.3"/>
 <wire x1="32.5" y1="14.5" x2="32.5" y2="15.4" width="0.254" layer="1"/>
 <wire x1="28.9" y1="13.5" x2="32.25" y2="13.5" width="0.254" layer="16"/>
 </signal>
@@ -1873,7 +1873,7 @@ Your Multi-CB Team
 <wire x1="11.5" y1="16.5" x2="12.5" y2="16.5" width="0.254" layer="16"/>
 <wire x1="13.060165625" y1="17.060165625" x2="12.5" y2="16.5" width="0.254" layer="16"/>
 <wire x1="13.060165625" y1="17.060165625" x2="13.560165625" y2="17.060165625" width="0.254" layer="16"/>
-<via x="13.560165625" y="17.060165625" extent="1-16" drill="0.35"/>
+<via x="13.560165625" y="17.060165625" extent="1-16" drill="0.3"/>
 <wire x1="14.5" y1="16.37033125" x2="13.810165625" y2="17.060165625" width="0.254" layer="1"/>
 <wire x1="13.810165625" y1="17.060165625" x2="13.560165625" y2="17.060165625" width="0.254" layer="1"/>
 <contactref element="Q1" pad="1"/>
@@ -1893,10 +1893,10 @@ Your Multi-CB Team
 <wire x1="30.85" y1="11.3" x2="30.95" y2="11.4" width="0.254" layer="1"/>
 <wire x1="30.95" y1="11.4" x2="32.5" y2="11.4" width="0.254" layer="1"/>
 <wire x1="32.5" y1="11.4" x2="33.3" y2="12.2" width="0.254" layer="1"/>
-<via x="33.3" y="12.2" extent="1-16" drill="0.35"/>
+<via x="33.3" y="12.2" extent="1-16" drill="0.3"/>
 <wire x1="33.3" y1="12.2" x2="34" y2="12.9" width="0.254" layer="16"/>
 <wire x1="34" y1="12.9" x2="34" y2="14.5" width="0.254" layer="16"/>
-<via x="34" y="14.5" extent="1-16" drill="0.35"/>
+<via x="34" y="14.5" extent="1-16" drill="0.3"/>
 <wire x1="14.5" y1="16.37033125" x2="14.5" y2="16.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UDPI">
