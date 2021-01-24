@@ -18,4 +18,4 @@ connector.
 ![PCB myDPI](/renders/20200423_myDPI_V1.1.png)
 
 ## License
-[GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
+[CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.pdf)
