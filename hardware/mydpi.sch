@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -92,6 +92,8 @@
 <layer number="111" name="EET" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
@@ -408,12 +410,12 @@
 </library>
 <library name="zaan-Capacitors" urn="urn:adsk.eagle:library:16758934">
 <packages>
-<package name="C0603" urn="urn:adsk.eagle:footprint:16758940/1" library_version="1">
+<package name="C0603" urn="urn:adsk.eagle:footprint:23311779/1" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.03" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.03" layer="39"/>
+<wire x1="-1.475" y1="0.975" x2="1.475" y2="0.975" width="0.04" layer="39"/>
+<wire x1="1.475" y1="0.975" x2="1.475" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="1.475" y1="-0.975" x2="-1.475" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="-1.475" y1="-0.975" x2="-1.475" y2="0.975" width="0.04" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
@@ -424,14 +426,14 @@
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="C0805" urn="urn:adsk.eagle:footprint:16758942/1" library_version="1">
+<package name="C0805" urn="urn:adsk.eagle:footprint:23311780/1" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.03" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.03" layer="39"/>
+<wire x1="-1.975" y1="0.975" x2="1.975" y2="0.975" width="0.04" layer="39"/>
+<wire x1="1.975" y1="-0.975" x2="-1.975" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="-1.975" y1="-0.975" x2="-1.975" y2="0.975" width="0.04" layer="39"/>
 <wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.03" layer="39"/>
+<wire x1="1.975" y1="0.975" x2="1.975" y2="-0.975" width="0.04" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
@@ -440,12 +442,12 @@
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C1206" urn="urn:adsk.eagle:footprint:16758939/1" library_version="1">
+<package name="C1206" urn="urn:adsk.eagle:footprint:23311781/1" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.03" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.03" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.03" layer="39"/>
+<wire x1="-2.475" y1="0.975" x2="2.475" y2="0.975" width="0.04" layer="39"/>
+<wire x1="2.475" y1="-0.975" x2="-2.475" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="-2.475" y1="-0.975" x2="-2.475" y2="0.975" width="0.04" layer="39"/>
+<wire x1="2.475" y1="0.975" x2="2.475" y2="-0.975" width="0.04" layer="39"/>
 <wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
 <wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
@@ -456,14 +458,14 @@
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="C1210" urn="urn:adsk.eagle:footprint:16758941/1" library_version="1">
+<package name="C1210" urn="urn:adsk.eagle:footprint:23311777/1" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.03" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.03" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.03" layer="39"/>
+<wire x1="-2.475" y1="1.475" x2="2.475" y2="1.475" width="0.04" layer="39"/>
+<wire x1="2.475" y1="-1.475" x2="-2.475" y2="-1.475" width="0.04" layer="39"/>
+<wire x1="-2.475" y1="-1.475" x2="-2.475" y2="1.475" width="0.04" layer="39"/>
 <wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
 <wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.03" layer="39"/>
+<wire x1="2.475" y1="1.475" x2="2.475" y2="-1.475" width="0.04" layer="39"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
 <text x="0" y="2" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
@@ -474,25 +476,25 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:16758953/1" type="model" library_version="1">
+<package3d name="C0603" urn="urn:adsk.eagle:package:16758953/2" type="model" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C0603"/>
 </packageinstances>
 </package3d>
-<package3d name="C0805" urn="urn:adsk.eagle:package:16758952/1" type="model" library_version="1">
+<package3d name="C0805" urn="urn:adsk.eagle:package:16758952/2" type="model" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <packageinstances>
 <packageinstance name="C0805"/>
 </packageinstances>
 </package3d>
-<package3d name="C1206" urn="urn:adsk.eagle:package:16758955/1" type="model" library_version="1">
+<package3d name="C1206" urn="urn:adsk.eagle:package:16758955/2" type="model" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C1206"/>
 </packageinstances>
 </package3d>
-<package3d name="C1210" urn="urn:adsk.eagle:package:16758954/1" type="model" library_version="1">
+<package3d name="C1210" urn="urn:adsk.eagle:package:16758954/2" type="model" library_version="6" library_locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C1210"/>
@@ -516,7 +518,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1UF" urn="urn:adsk.eagle:component:16758975/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="1UF" urn="urn:adsk.eagle:component:16758975/4" prefix="C" uservalue="yes" library_version="6" library_locally_modified="yes">
 <description>1uF capacitor</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -528,11 +530,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X5R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0603KRX5R8BB105"/>
@@ -550,11 +552,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0805KKX7R8BB105"/>
@@ -572,11 +574,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC1206KKX7R8BB105"/>
@@ -594,11 +596,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0805KKX7R9BB105"/>
@@ -610,31 +612,9 @@
 </technology>
 </technologies>
 </device>
-<device name="-0805-100V-10%" package="C0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
-<attribute name="DIELECTRIC" value="X7R"/>
-<attribute name="MF" value="TDK"/>
-<attribute name="MPN" value="C3216X7R2A105K160AE"/>
-<attribute name="PACKAGE" value="2012"/>
-<attribute name="PACKAGE-IN" value="0805"/>
-<attribute name="TOLERANCE" value="10%"/>
-<attribute name="VALUE" value="1u"/>
-<attribute name="VOLTAGE" value="100V"/>
-</technology>
-</technologies>
-</device>
 </devices>
 </deviceset>
-<deviceset name="100NF" urn="urn:adsk.eagle:component:16758977/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="100NF" urn="urn:adsk.eagle:component:16758977/3" prefix="C" uservalue="yes" library_version="6" library_locally_modified="yes">
 <description>100nF capacitor</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -646,11 +626,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0603JRX7R9BB104"/>
@@ -668,11 +648,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0805JRX7R9BB104"/>
@@ -690,11 +670,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Precision Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="C0G/NPO"/>
 <attribute name="MF" value="Kemet"/>
 <attribute name="MPN" value="C1206C104F3GEC7210"/>
@@ -712,11 +692,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC1206JRX7R9BB104"/>
@@ -734,11 +714,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0805KKX7R0BB104"/>
@@ -756,11 +736,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0603KRX7R0BB104"/>
@@ -774,7 +754,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="1NF" urn="urn:adsk.eagle:component:16758968/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="1NF" urn="urn:adsk.eagle:component:16758968/3" prefix="C" uservalue="yes" library_version="6" library_locally_modified="yes">
 <description>1nF capacitor</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -786,11 +766,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="C0G/NPO"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0603JRNPO9BN102"/>
@@ -808,11 +788,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="C0G/NPO"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0805JRNPO9BN102"/>
@@ -830,11 +810,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758955/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC1206JRX7R9BB102"/>
@@ -852,11 +832,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X7R"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0603KRX7R0BB102"/>
@@ -874,11 +854,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758954/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758954/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="C0G/NPO"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC1210JKNPOBBN102"/>
@@ -896,11 +876,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="C0G/NPO"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0603JRNPO0BN102"/>
@@ -914,7 +894,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="22UF" urn="urn:adsk.eagle:component:16758961/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="22UF" urn="urn:adsk.eagle:component:16758961/3" prefix="C" uservalue="yes" library_version="6" library_locally_modified="yes">
 <description>22uF capacitor</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -926,11 +906,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758952/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="X5R"/>
 <attribute name="MF" value="Murata"/>
 <attribute name="MPN" value="GRM21BR61E226ME44L"/>
@@ -944,7 +924,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="12PF" urn="urn:adsk.eagle:component:16758956/1" prefix="C" uservalue="yes" library_version="1">
+<deviceset name="12PF" urn="urn:adsk.eagle:component:16758956/3" prefix="C" uservalue="yes" library_version="6" library_locally_modified="yes">
 <description>12pF capacitor</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -956,11 +936,11 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16758953/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Capacitor"/>
+<attribute name="DESCRIPTION" value="Chip Capacitor"/>
 <attribute name="DIELECTRIC" value="C0G/NPO"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="CC0603JRNPO9BN120"/>
@@ -1028,20 +1008,20 @@ chip</description>
 <rectangle x1="0.9144" y1="-1.3081" x2="1.6645" y2="1.2918" layer="51"/>
 <rectangle x1="-0.3" y1="-0.8999" x2="0.3" y2="0.8999" layer="35"/>
 </package>
-<package name="R0805" urn="urn:adsk.eagle:footprint:16759446/2" library_version="2">
+<package name="R0805" urn="urn:adsk.eagle:footprint:16759446/7" library_version="5">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
-<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.03" layer="39"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.03" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.03" layer="39"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 <smd name="1" x="-1" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="1" y="0" dx="1.3" dy="1.5" layer="1"/>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.975" y1="0.975" x2="1.975" y2="0.975" width="0.04" layer="39"/>
+<wire x1="1.975" y1="0.975" x2="1.975" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="1.975" y1="-0.975" x2="-1.975" y2="-0.975" width="0.04" layer="39"/>
+<wire x1="-1.975" y1="-0.975" x2="-1.975" y2="0.975" width="0.04" layer="39"/>
 <text x="0" y="1.5" size="1.016" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="0" y="-1.5" size="1.016" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
@@ -1067,7 +1047,7 @@ chip</description>
 <packageinstance name="R1210"/>
 </packageinstances>
 </package3d>
-<package3d name="R0805" urn="urn:adsk.eagle:package:16759454/2" type="model" library_version="2">
+<package3d name="R0805" urn="urn:adsk.eagle:package:16759454/5" type="model" library_version="5">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 chip</description>
 <packageinstances>
@@ -1091,7 +1071,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22OHM" urn="urn:adsk.eagle:component:16759497/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="22OHM" urn="urn:adsk.eagle:component:16759497/5" prefix="R" uservalue="yes" library_version="5">
 <description>22Ω resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1107,7 +1087,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-0722RL"/>
 <attribute name="PACKAGE" value="1608"/>
@@ -1125,11 +1105,11 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0722RL"/>
 <attribute name="PACKAGE" value="2012"/>
@@ -1151,7 +1131,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1206FR-0722RL"/>
 <attribute name="PACKAGE" value="3216"/>
@@ -1173,7 +1153,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1210FR-0722RL"/>
 <attribute name="PACKAGE" value="3225"/>
@@ -1187,7 +1167,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1KOHM" urn="urn:adsk.eagle:component:16759486/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="1KOHM" urn="urn:adsk.eagle:component:16759486/5" prefix="R" uservalue="yes" library_version="5">
 <description>1kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1203,7 +1183,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-071KL"/>
 <attribute name="PACKAGE" value="1608"/>
@@ -1221,11 +1201,11 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-071KL"/>
 <attribute name="PACKAGE" value="2012"/>
@@ -1247,7 +1227,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1206FR-071KL"/>
 <attribute name="PACKAGE" value="3216"/>
@@ -1269,7 +1249,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1210FR-071KL"/>
 <attribute name="PACKAGE" value="3225"/>
@@ -1283,7 +1263,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="5.1KOHM" urn="urn:adsk.eagle:component:16759498/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="5.1KOHM" urn="urn:adsk.eagle:component:16759498/5" prefix="R" uservalue="yes" library_version="5">
 <description>5.1kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1299,7 +1279,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-075K1L"/>
 <attribute name="PACKAGE" value="1608"/>
@@ -1317,11 +1297,11 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-075K1L"/>
 <attribute name="PACKAGE" value="2012"/>
@@ -1343,7 +1323,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1206FR-075K1L"/>
 <attribute name="PACKAGE" value="3216"/>
@@ -1365,7 +1345,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1210FR-075K1L"/>
 <attribute name="PACKAGE" value="3225"/>
@@ -1379,7 +1359,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="100KOHM" urn="urn:adsk.eagle:component:16759484/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="100KOHM" urn="urn:adsk.eagle:component:16759484/5" prefix="R" uservalue="yes" library_version="5">
 <description>100kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1395,7 +1375,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-07100KL"/>
 <attribute name="PACKAGE" value="1608"/>
@@ -1413,11 +1393,11 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-07100KL"/>
 <attribute name="PACKAGE" value="2012"/>
@@ -1439,7 +1419,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1206FR-07100KL"/>
 <attribute name="PACKAGE" value="3216"/>
@@ -1461,7 +1441,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1210FR-07100KL"/>
 <attribute name="PACKAGE" value="3225"/>
@@ -1475,7 +1455,7 @@ chip</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="4.7KOHM" urn="urn:adsk.eagle:component:16759473/2" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="4.7KOHM" urn="urn:adsk.eagle:component:16759473/5" prefix="R" uservalue="yes" library_version="5">
 <description>4.7kΩ resistor</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1491,7 +1471,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0603FR-074K7L"/>
 <attribute name="PACKAGE" value="1608"/>
@@ -1509,11 +1489,11 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16759454/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-074K7L"/>
 <attribute name="PACKAGE" value="2012"/>
@@ -1535,7 +1515,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1206FR-074K7L"/>
 <attribute name="PACKAGE" value="3216"/>
@@ -1557,7 +1537,7 @@ chip</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Surface Mount Resistor"/>
+<attribute name="DESCRIPTION" value="Chip Resistor"/>
 <attribute name="MF" value="Yageo"/>
 <attribute name="MPN" value="RC1210FR-074K7L"/>
 <attribute name="PACKAGE" value="3225"/>
@@ -1978,7 +1958,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <packageinstance name="490107670612_DEBUGGING"/>
 </packageinstances>
 </package3d>
-<package3d name="AVRISP-1.27-SMD" urn="urn:adsk.eagle:package:17075154/2" type="empty" library_version="7" library_locally_modified="yes">
+<package3d name="AVRISP-1.27-SMD" urn="urn:adsk.eagle:package:17075154/1" type="box" library_version="7">
 <packageinstances>
 <packageinstance name="AVRISP-1.27-SMD"/>
 </packageinstances>
@@ -2103,7 +2083,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVR-ISP" urn="urn:adsk.eagle:component:16759076/4" locally_modified="yes" prefix="ICSP" library_version="7" library_locally_modified="yes">
+<deviceset name="AVR-ISP" urn="urn:adsk.eagle:component:16759076/4" prefix="ICSP" library_version="7">
 <gates>
 <gate name="G$1" symbol="AVR-ISP" x="0" y="0"/>
 </gates>
@@ -2166,7 +2146,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:17075154/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17075154/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2343,7 +2323,7 @@ Super Speed pins not available on the 16-pin purely SMD connector so this part i
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:16759585/1" prefix="FRAME" uservalue="yes" library_version="1">
+<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:16759585/1" prefix="FRAME" uservalue="yes" library_version="2">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -2821,14 +2801,14 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 </classes>
 <parts>
 <part name="U1" library="zaan-IC-Microcontroller" library_urn="urn:adsk.eagle:library:16759236" deviceset="MEGA32U4" device="-MU" package3d_urn="urn:adsk.eagle:package:16759255/1"/>
-<part name="C1" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="1u"/>
+<part name="C1" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="1u"/>
 <part name="R1" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="22OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="22R"/>
 <part name="R2" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="22OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="22R"/>
-<part name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
-<part name="C3" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
-<part name="C4" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
-<part name="C5" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
-<part name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="1n"/>
+<part name="C2" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="100n"/>
+<part name="C3" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="100n"/>
+<part name="C4" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="100n"/>
+<part name="C5" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="100n"/>
+<part name="C7" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="1n"/>
 <part name="R3" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="1k"/>
 <part name="D1" library="zaan-Optoelectronics" library_urn="urn:adsk.eagle:library:16759395" deviceset="LTST" device="-C171KSKT" package3d_urn="urn:adsk.eagle:package:16759426/3"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2839,10 +2819,10 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1">
 <variant name="BOM" populate="no"/>
 </part>
-<part name="C9" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/1" value="22u"/>
-<part name="C10" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="1u"/>
-<part name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
-<part name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="1u"/>
+<part name="C9" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="22UF" device="-0805-25V-20%" package3d_urn="urn:adsk.eagle:package:16758952/2" value="22u"/>
+<part name="C10" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="1u"/>
+<part name="C11" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="100n"/>
+<part name="C12" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="1UF" device="-0603-25V-10%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="1u"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2862,11 +2842,11 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R7" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="100k"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="ICSP1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-ISP" device="-SMD" package3d_urn="urn:adsk.eagle:package:17075154/2" value="AVR-ISP-SMD">
+<part name="ICSP1" library="zaan-Connectors" library_urn="urn:adsk.eagle:library:16759010" deviceset="AVR-ISP" device="-SMD" package3d_urn="urn:adsk.eagle:package:17075154/1" value="AVR-ISP-SMD">
 <variant name="BOM" populate="no"/>
 </part>
 <part name="R8" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="100k"/>
-<part name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="100n"/>
+<part name="C13" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="100NF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="100n"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2874,8 +2854,8 @@ N-Channel Logic Level Enhancement Mode Field Effect Transistor
 <part name="R9" library="zaan-Resistors" library_urn="urn:adsk.eagle:library:16759442" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:16759452/1" value="1k"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="12p"/>
-<part name="C14" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/1" value="12p"/>
+<part name="C8" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="12p"/>
+<part name="C14" library="zaan-Capacitors" library_urn="urn:adsk.eagle:library:16758934" deviceset="12PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:16758953/2" value="12p"/>
 <part name="Y1" library="zaan-Electromechanical" library_urn="urn:adsk.eagle:library:16759157" deviceset="830069" device="392" package3d_urn="urn:adsk.eagle:package:16759170/1"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
