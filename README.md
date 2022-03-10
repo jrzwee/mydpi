@@ -23,5 +23,9 @@ Click the logo to preview the order:
 
 [![Push PCB to Aisler](https://cdn.aisler.net/packs/static/e01c7ccf5352ef837a15.png)](https://aisler.net/p/new?url=https://raw.githubusercontent.com/jrzwee/mydpi/master/hardware/mydpi.brd&ref=github)
 
+
+[<img alt="alt_text" src="https://cdn.aisler.net/packs/static/e01c7ccf5352ef837a15.png">](https://aisler.net/p/new?url=https://raw.githubusercontent.com/jrzwee/mydpi/master/hardware/mydpi.brd&ref=github)
+
+
 ## License
 [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.pdf)
