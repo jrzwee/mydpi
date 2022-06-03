@@ -23,6 +23,10 @@ Click the logo to preview the order "**Push to Aisler**":
 
 [<img alt="alt_text" width="300" src="https://cdn.aisler.net/packs/static/e01c7ccf5352ef837a15.png">](https://aisler.net/p/new?url=https://raw.githubusercontent.com/jrzwee/mydpi/master/hardware/mydpi.brd&ref=github)
 
+If you like this project, feel free to support me 😇
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/zaan)
+
 
 ## License
 [CERN-OHL-S](https://ohwr.org/cern_ohl_s_v2.pdf)
